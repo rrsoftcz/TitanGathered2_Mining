@@ -1,0 +1,17 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+  <Script file="TitanGathered2_Mining.en.lua"/>
+  <Script file="TitanGathered2_Mining.lua"/>
+
+	<Frame name="TitanGathered2_MiningFrame">
+		<Scripts>
+			<OnLoad>
+				TitanGathered2_Mining.Button_OnLoad(self);
+			</OnLoad>
+			<OnEvent>
+				TitanGathered2_Mining.Button_OnEvent(self, event, ...);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
