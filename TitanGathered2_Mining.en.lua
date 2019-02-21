@@ -1,6 +1,7 @@
 TGO_CAT_ORES = "Ores";
 TGO_CAT_STONES = "Stones";
 TGO_CAT_GEMS = "Gems";
+TGO_CAT_INGOTS = "Ingots";
 
 TG_DB_ORES = {
     -- VANILLA --
@@ -76,14 +77,49 @@ TG_DB_GEMS = {
 	{ tag = "11184", name = "Blue Power Crystal",       cat = TGO_CAT_GEMS, skill = 0 },
 	{ tag = "11186", name = "Red Power Crystal",        cat = TGO_CAT_GEMS, skill = 0 },
 	{ tag = "11188", name = "Yellow Power Crystal",     cat = TGO_CAT_GEMS, skill = 0 },
-
 }
 
+TG_DB_INGOTS = {
+    -- INGOTS --
+    { tag = 2840,   name = "Copper Bar",                cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 2841,   name = "Bronze Bar",                cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 2842,   name = "Silver Bar",                cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 3575,   name = "Iron Bar",                  cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 3576,   name = "Tin Bar",                   cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 3577,   name = "Gold Bar",                  cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 3859,   name = "Steel Bar",                 cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 3860,   name = "Mithril Bar",               cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 6037,   name = "Truesilver Bar",            cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 11371,  name = "Dark Iron Bar",             cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 12359,  name = "Thorium Bar",               cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 12655,  name = "Enchanted Thorium Bar",     cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 17771,  name = "Enchanted Elementium Bar",  cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 22573,  name = "Mote of Earth",             cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 22574,  name = "Mote of Fire",              cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 23445,  name = "Fel Iron Bar",              cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 23446,  name = "Adamantite Bar",            cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 23447,  name = "Eternium Bar",              cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 23448,  name = "Felsteel Bar",              cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 23449,  name = "Khorium Bar",               cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 23573,  name = "Hardened Adamantite Bar",   cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 35128,  name = "Hardened Khorium",          cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 36913,  name = "Saronite Bar",              cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 36916,  name = "Cobalt Bar",                cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 37663,  name = "Titansteel Bar",            cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 41163,  name = "Titanium Bar",              cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 51950,  name = "Pyrium Bar",                cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 52186,  name = "Elementium Bar",            cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 53039,  name = "Hardened Elementium Bar",   cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 54849,  name = "Obsidium Bar",              cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 72095,  name = "Trillium Bar",              cat = TGO_CAT_INGOTS, skill = 1 },
+    { tag = 72096,  name = "Ghost Iron Bar",            cat = TGO_CAT_INGOTS, skill = 1 }
+}
 
 TGO_PLUGIN_CATEGORIES = {
     { db = TG_DB_ORES,    name = TGO_CAT_ORES,      smenu = TG_PREFIX_SHOW..TGO_CAT_ORES,    profession = "Mining"},
     { db = TG_DB_STONES,  name = TGO_CAT_STONES,    smenu = TG_PREFIX_SHOW..TGO_CAT_STONES,  profession = "Mining"},
-    { db = TG_DB_GEMS,    name = TGO_CAT_GEMS,      smenu = TG_PREFIX_SHOW..TGO_CAT_GEMS,    profession = "Mining"}
+    { db = TG_DB_GEMS,    name = TGO_CAT_GEMS,      smenu = TG_PREFIX_SHOW..TGO_CAT_GEMS,    profession = "Mining"},
+    { db = TG_DB_INGOTS,  name = TGO_CAT_INGOTS,    smenu = TG_PREFIX_SHOW..TGO_CAT_INGOTS,  profession = "Mining"}
 }
 ---------------------
 -- MINING SOURCES
