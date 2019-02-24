@@ -48,6 +48,10 @@ function tgo.Button_OnEvent(self, event)
     -- EMPTY
 end
 
+function tgo.getMinables()
+    return TGO_MINABLES
+end
+
 function tgo.getGatherableSourceObject(objectId)
     for _, _m in pairs(TGO_MINABLES) do
         if (_m.id == objectId) then

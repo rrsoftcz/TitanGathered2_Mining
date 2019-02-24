@@ -3,6 +3,7 @@ TGO_CAT_STONES = "Stones";
 TGO_CAT_GEMS = "Gems";
 
 TG_DB_ORES = {
+    { tag = "2589" , name = "Linen Cloth" , cat = TGO_CAT_ORES, skill = 1},
     -- VANILLA --
     { tag = "2770", name = "Copper Ore",                cat = TGO_CAT_ORES, skill = 1 },
     { tag = "2771", name = "Tin Ore",                   cat = TGO_CAT_ORES, skill = 65 },
