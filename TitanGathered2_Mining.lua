@@ -1,4 +1,4 @@
-TITAN_ORES_ID = "Mining"
+TITAN_MINING_ID = "Mining"
 tgoPluginDb = {}
 
 TitanGathered2_Mining = {}
@@ -8,7 +8,7 @@ local infoBoardData = {}
 local tg = TitanGathered2
 local gtt = GameTooltip
 
-tgo.id = TITAN_ORES_ID
+tgo.id = TITAN_MINING_ID
 tgo.addon = "TitanGathered2_Mining"
 tgo.email = "bajtlamer@gmail.com"
 tgo.www = "www.rrsoft.cz"

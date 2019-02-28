@@ -1,7 +1,7 @@
 TGO_CAT_ORES = "Ores";
 TGO_CAT_STONES = "Stones";
 TGO_CAT_GEMS = "Gems";
-TGO_CAT_INGOTS = "Ingots";
+TGO_CAT_INGOTS = "Bars";
 
 TG_DB_ORES = {
     { tag = "2589" , name = "Linen Cloth" , cat = TGO_CAT_ORES, skill = 1},
