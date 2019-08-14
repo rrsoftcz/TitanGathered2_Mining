@@ -37,6 +37,8 @@ TG_DB_ORES = {
     { tag = "152512", name = "Monelite Ore",            cat = TGO_CAT_ORES, skill = 1 },
     { tag = "152579", name = "Storm Silver Ore",        cat = TGO_CAT_ORES, skill = 1 },
     { tag = "152513", name = "Platinum Ore",            cat = TGO_CAT_ORES, skill = 1 },
+    -- BFA 8.2 --
+    { tag = "168185", name = "Osmenite Ore",            cat = TGO_CAT_ORES, skill = 1 },
 }
 
 TG_DB_STONES = {
@@ -51,6 +53,8 @@ TG_DB_STONES = {
     { tag = "3486", name = "Heavy Grinding Stone",      cat = TGO_CAT_STONES, skill = 125 },
     { tag = "7966", name = "Solid Grinding Stone",      cat = TGO_CAT_STONES, skill = 175 },
     { tag = "12644", name = "Dense Grinding Stone",     cat = TGO_CAT_STONES, skill = 245 },
+    -- BFA 8.2 --
+    { tag = "169598", name = "Osmenite Dust",           cat = TGO_CAT_STONES, skill = 245 },
 }
 
 TG_DB_GEMS = {
@@ -78,6 +82,8 @@ TG_DB_GEMS = {
 	{ tag = "11184", name = "Blue Power Crystal",       cat = TGO_CAT_GEMS, skill = 0 },
 	{ tag = "11186", name = "Red Power Crystal",        cat = TGO_CAT_GEMS, skill = 0 },
 	{ tag = "11188", name = "Yellow Power Crystal",     cat = TGO_CAT_GEMS, skill = 0 },
+    -- BFA 8.2 --
+    { tag = "169597", name = "Osmenite Shards",         cat = TGO_CAT_GEMS, skill = 0 },
 }
 
 TG_DB_INGOTS = {
@@ -177,6 +183,8 @@ TGO_MINABLES = {
     { id = 276620, name = "Storm Silver Seam" },
     { id = 276621, name = "Rich Monelite Deposit" },
     { id = 276622, name = "Rich Storm Silver Deposit" },
-    { id = 276623, name = "Rich Platinum Deposit" },
-
+    -- BFA 8.2 --
+    { id = 325875, name = "Osmenite Deposit" },
+    { id = 325874, name = "Osmenite Seam" },
+    { id = 325873, name = "Rich Osmenite Deposit" },
 }
