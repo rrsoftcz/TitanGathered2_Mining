@@ -6,55 +6,66 @@ TGO_CAT_INGOTS = "Bars";
 TG_DB_ORES = {
     { tag = "2589" , name = "Linen Cloth" , cat = TGO_CAT_ORES, skill = 1},
     -- VANILLA --
-    { tag = "2770", name = "Copper Ore",                cat = TGO_CAT_ORES, skill = 1 },
-    { tag = "2771", name = "Tin Ore",                   cat = TGO_CAT_ORES, skill = 65 },
-    { tag = "2775", name = "Silver Ore",                cat = TGO_CAT_ORES, skill = 75 },
-    { tag = "2772", name = "Iron Ore",                  cat = TGO_CAT_ORES, skill = 125 },
-    { tag = "2776", name = "Gold Ore",                  cat = TGO_CAT_ORES, skill = 155 },
-    { tag = "3858", name = "Mithril Ore",               cat = TGO_CAT_ORES, skill = 175 },
-    { tag = "7911", name = "Truesilver Ore",            cat = TGO_CAT_ORES, skill = 230 },
-    { tag = "10620", name = "Thorium Ore",              cat = TGO_CAT_ORES, skill = 245 },
-    { tag = "11370", name = "Dark Iron Ore",            cat = TGO_CAT_ORES, skill = 230 },
+    { tag = "2770", name = "Copper Ore",              cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "2771", name = "Tin Ore",                 cat = TGO_CAT_ORES, skill = 65 },
+    { tag = "2775", name = "Silver Ore",              cat = TGO_CAT_ORES, skill = 75 },
+    { tag = "2772", name = "Iron Ore",                cat = TGO_CAT_ORES, skill = 125 },
+    { tag = "2776", name = "Gold Ore",                cat = TGO_CAT_ORES, skill = 155 },
+    { tag = "3858", name = "Mithril Ore",             cat = TGO_CAT_ORES, skill = 175 },
+    { tag = "7911", name = "Truesilver Ore",          cat = TGO_CAT_ORES, skill = 230 },
+    { tag = "10620", name = "Thorium Ore",            cat = TGO_CAT_ORES, skill = 245 },
+    { tag = "11370", name = "Dark Iron Ore",          cat = TGO_CAT_ORES, skill = 230 },
     -- BC --
-    { tag = "23424", name = "Fel Iron Ore",             cat = TGO_CAT_ORES, skill = 300 },
-    { tag = "23425", name = "Adamantite Ore",           cat = TGO_CAT_ORES, skill = 325 },
-    { tag = "23427", name = "Eternium Ore",             cat = TGO_CAT_ORES, skill = 350 },
-    { tag = "23426", name = "Khorium Ore",              cat = TGO_CAT_ORES, skill = 375 },
+    { tag = "23424", name = "Fel Iron Ore",           cat = TGO_CAT_ORES, skill = 300 },
+    { tag = "23425", name = "Adamantite Ore",         cat = TGO_CAT_ORES, skill = 325 },
+    { tag = "23427", name = "Eternium Ore",           cat = TGO_CAT_ORES, skill = 350 },
+    { tag = "23426", name = "Khorium Ore",            cat = TGO_CAT_ORES, skill = 375 },
     -- CATACLYSM --
-    { tag = "18562", name = "Elementium Ore",           cat = TGO_CAT_ORES, skill = 350 },
-    { tag = "36909", name = "Cobalt Ore",               cat = TGO_CAT_ORES, skill = 350 },
-    { tag = "36912", name = "Saronite Ore",             cat = TGO_CAT_ORES, skill = 400 },
-    { tag = "36910", name = "Titanium Ore",             cat = TGO_CAT_ORES, skill = 400 },
-    { tag = "52183", name = "Pyrite Ore",               cat = TGO_CAT_ORES, skill = 525 },
-    { tag = "53038", name = "Obsidium Ore",             cat = TGO_CAT_ORES, skill = 500 },
-    { tag = "52185", name = "Elementium Ore",           cat = TGO_CAT_ORES, skill = 500 },
+    { tag = "18562", name = "Elementium Ore",         cat = TGO_CAT_ORES, skill = 350 },
+    { tag = "36909", name = "Cobalt Ore",             cat = TGO_CAT_ORES, skill = 350 },
+    { tag = "36912", name = "Saronite Ore",           cat = TGO_CAT_ORES, skill = 400 },
+    { tag = "36910", name = "Titanium Ore",           cat = TGO_CAT_ORES, skill = 400 },
+    { tag = "52183", name = "Pyrite Ore",             cat = TGO_CAT_ORES, skill = 525 },
+    { tag = "53038", name = "Obsidium Ore",           cat = TGO_CAT_ORES, skill = 500 },
+    { tag = "52185", name = "Elementium Ore",         cat = TGO_CAT_ORES, skill = 500 },
     -- PANDARIA ORES --
-    { tag = "72093", name = "Kyparite",                 cat = TGO_CAT_ORES, skill = 550 },
-    { tag = "72092", name = "Ghost Iron Ore",           cat = TGO_CAT_ORES, skill = 1 },
-    { tag = "72094", name = "Black Trillium Ore",       cat = TGO_CAT_ORES, skill = 75 },
-    { tag = "72103", name = "White Trillium Ore",       cat = TGO_CAT_ORES, skill = 75 },
+    { tag = "72093", name = "Kyparite",               cat = TGO_CAT_ORES, skill = 550 },
+    { tag = "72092", name = "Ghost Iron Ore",         cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "72094", name = "Black Trillium Ore",     cat = TGO_CAT_ORES, skill = 75 },
+    { tag = "72103", name = "White Trillium Ore",     cat = TGO_CAT_ORES, skill = 75 },
     -- BFA ORES --
-    { tag = "152512", name = "Monelite Ore",            cat = TGO_CAT_ORES, skill = 1 },
-    { tag = "152579", name = "Storm Silver Ore",        cat = TGO_CAT_ORES, skill = 1 },
-    { tag = "152513", name = "Platinum Ore",            cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "152512", name = "Monelite Ore",          cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "152579", name = "Storm Silver Ore",      cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "152513", name = "Platinum Ore",          cat = TGO_CAT_ORES, skill = 1 },
     -- BFA 8.2 --
-    { tag = "168185", name = "Osmenite Ore",            cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "168185", name = "Osmenite Ore",          cat = TGO_CAT_ORES, skill = 1 },
+    -- SHA 9.2 --
+    { tag = "171828", name = "Laestrite Ore",         cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "171833", name = "Elethium Ore",          cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "171829", name = "Solenium Ore",          cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "171830", name = "Oxxein Ore",            cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "171831", name = "Phaedrum Ore",          cat = TGO_CAT_ORES, skill = 1 },
+    { tag = "171832", name = "Sinvyr Ore",            cat = TGO_CAT_ORES, skill = 1 },
 }
 
 TG_DB_STONES = {
     -- STONES --
-    { tag = "2835", name = "Rough Stone",               cat = TGO_CAT_STONES, skill = 1 },
-    { tag = "2836", name = "Coarse Stone",              cat = TGO_CAT_STONES, skill = 65 },
-    { tag = "2838", name = "Heavy Stone",               cat = TGO_CAT_STONES, skill = 125 },
-    { tag = "7912", name = "Solid Stone",               cat = TGO_CAT_STONES, skill = 175 },
-    { tag = "12365", name = "Dense Stone",              cat = TGO_CAT_STONES, skill = 245 },
-    { tag = "3470", name = "Rough Grinding Stone",      cat = TGO_CAT_STONES, skill = 1 },
-    { tag = "3478", name = "Coarse Grinding Stone",     cat = TGO_CAT_STONES, skill = 65 },
-    { tag = "3486", name = "Heavy Grinding Stone",      cat = TGO_CAT_STONES, skill = 125 },
-    { tag = "7966", name = "Solid Grinding Stone",      cat = TGO_CAT_STONES, skill = 175 },
-    { tag = "12644", name = "Dense Grinding Stone",     cat = TGO_CAT_STONES, skill = 245 },
+    { tag = "2835", name = "Rough Stone",              cat = TGO_CAT_STONES, skill = 1 },
+    { tag = "2836", name = "Coarse Stone",             cat = TGO_CAT_STONES, skill = 65 },
+    { tag = "2838", name = "Heavy Stone",              cat = TGO_CAT_STONES, skill = 125 },
+    { tag = "7912", name = "Solid Stone",              cat = TGO_CAT_STONES, skill = 175 },
+    { tag = "12365", name = "Dense Stone",             cat = TGO_CAT_STONES, skill = 245 },
+    { tag = "3470", name = "Rough Grinding Stone",     cat = TGO_CAT_STONES, skill = 1 },
+    { tag = "3478", name = "Coarse Grinding Stone",    cat = TGO_CAT_STONES, skill = 65 },
+    { tag = "3486", name = "Heavy Grinding Stone",     cat = TGO_CAT_STONES, skill = 125 },
+    { tag = "7966", name = "Solid Grinding Stone",     cat = TGO_CAT_STONES, skill = 175 },
+    { tag = "12644", name = "Dense Grinding Stone",    cat = TGO_CAT_STONES, skill = 245 },
     -- BFA 8.2 --
-    { tag = "169598", name = "Osmenite Dust",           cat = TGO_CAT_STONES, skill = 245 },
+    { tag = "169598", name = "Osmenite Dust",          cat = TGO_CAT_STONES, skill = 245 },
+    -- SHA 9.2 --
+    { tag = "171840", name = "Porous Stone",           cat = TGO_CAT_STONES, skill = 245 },
+    { tag = "171841", name = "Shaded Stone",           cat = TGO_CAT_STONES, skill = 245 },
+    { tag = "177061", name = "Twilight Bark",          cat = TGO_CAT_STONES, skill = 245 },
 }
 
 TG_DB_GEMS = {
@@ -132,7 +143,7 @@ TGO_PLUGIN_CATEGORIES = {
 -- MINING SOURCES
 ---------------------
 TGO_MINABLES = {
-    -- VANILA --
+    -- VANILLA --
     { id = 1731, name = "Copper Vein" },
     { id = 1732, name = "Tin Vein" },
     { id = 1733, name = "Silver Vein" },
@@ -187,4 +198,14 @@ TGO_MINABLES = {
     { id = 325875, name = "Osmenite Deposit" },
     { id = 325874, name = "Osmenite Seam" },
     { id = 325873, name = "Rich Osmenite Deposit" },
+    -- SHADOWLANDS 9.2 --
+    { id = 349898, name = "Laestrite Deposit" },
+    { id = 349899, name = "Rich Laestrite Deposit" },
+    { id = 350082, name = "Rich Elethium Deposit" },
+    { id = 349900, name = "Elethium Deposit" },
+    { id = 349983, name = "Sinvyr Deposit" },
+    { id = 349981, name = "Oxxein Deposit" },
+    { id = 349980, name = "Solenium Deposit" },
+    { id = 350086, name = "Rich Solenium Deposit" },
+    { id = 349982, name = "Phaedrum Deposit" },
 }

@@ -54,8 +54,14 @@ end
 
 function tgo.getGatherableSourceObject(objectId)
     for _, _m in pairs(TGO_MINABLES) do
-        if (_m.id == objectId) then
-            return { id = _m.id, name = _m.name }
+        if(type(_m.id) == "number")then
+            if (_m.id == objectId) then
+                return { id = _m.id, name = _m.name }
+            end
+        elseif(type(_m.id) == "table")then
+            if (tg.findForMultipleMinables(objectId, _m.id) == true) then
+                return {id = objectId, name = _m.name}
+            end
         end
     end
     return {id = objectId, name = nil}

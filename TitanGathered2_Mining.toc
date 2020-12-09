@@ -1,13 +1,12 @@
-## Interface: 80200
-## Title: Titan Panel [|cffeda55fTG 2 Mining|r] |cff00aa004.5.0.80200|r
+## Interface: 90002
+## Title: Titan Panel [|cffeda55fTG 2 Mining|r] |cff00aa006.2.54.90002|r
 ## Notes: Tracking materials and trade items in your bags and bank.
-## Version: 4.5.0
-## X-Date: 2019-08-14
+## X-Date: 2020-12-09
 ## Author: bajtlamer@gmail.com
 ## SavedVariables: tgoPluginDb
 ## OptionalDeps:
 ## Dependencies: Titan, TitanGathered2
-## Version: 4.5.0.80200
+## Version: 6.2.54.90002
 
 
 TitanGathered2_Mining.xml
